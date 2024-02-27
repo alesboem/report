@@ -1,0 +1,371 @@
+2024-02-27T15:16:26+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+Domain association file updated.
+====End Log====
+
+2024-02-27T15:16:27+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+Your domain has been verified with Apple Pay!
+====End Log====
+
+2024-02-27T15:16:33+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+account
+====End Log====
+
+2024-02-27T15:18:16+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 50
+    [currency] => eur
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [capture_method] => automatic
+)
+
+====End Log====
+
+2024-02-27T15:19:16+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+account
+====End Log====
+
+2024-02-27T15:19:55+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 50
+    [currency] => eur
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [capture_method] => automatic
+)
+
+====End Log====
+
+2024-02-27T15:20:14+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 50
+    [currency] => eur
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [capture_method] => automatic
+)
+
+====End Log====
+
+2024-02-27T15:20:53+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 50
+    [currency] => eur
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [capture_method] => automatic
+)
+
+====End Log====
+
+2024-02-27T15:21:35+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+account
+====End Log====
+
+2024-02-27T15:21:45+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+Your domain has been verified with Apple Pay!
+====End Log====
+
+2024-02-27T15:21:53+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+payment_intents request: Array
+(
+    [amount] => 50
+    [currency] => eur
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [capture_method] => automatic
+)
+
+====End Log====
+
+2024-02-27T15:22:46+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+customers/cus_JEwETYGWDmS4HU request: Array
+(
+    [email] => ales@boem.studio
+    [description] => Name: Aleš Kachlík, Username: 90121807272
+    [name] => Aleš Kachlík
+    [metadata] => Array
+        (
+        )
+
+    [preferred_locales] => Array
+        (
+            [0] => en-US
+        )
+
+    [address] => Array
+        (
+            [line1] => Hošťálkova 522/11
+            [line2] => fdsff
+            [postal_code] => 16900
+            [city] => Praha
+            [state] => 
+            [country] => CZ
+        )
+
+)
+
+====End Log====
+
+2024-02-27T15:22:47+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+payment_intents/pi_3OoSTdAuW9GbHjjO1l5YF02R request: Array
+(
+    [amount] => 50
+    [currency] => EUR
+    [description] => Boem - Order 7898
+    [customer] => cus_JEwETYGWDmS4HU
+    [payment_method_types] => Array
+        (
+            [0] => card
+        )
+
+    [metadata] => Array
+        (
+            [customer_name] => Aleš Kachlík
+            [customer_email] => alesboem@icloud.com
+            [site_url] => https://www.boem.co/1709043782834
+            [order_id] => 7898
+            [order_key] => wc_order_xxft6FTJS7t3h
+            [payment_type] => single
+        )
+
+)
+
+====End Log====
+
+2024-02-27T15:23:31+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+Begin processing UPE redirect payment for order 7898 for the amount of 0.50
+====End Log====
+
+2024-02-27T15:23:31+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+payment_intents/pi_3OoSTdAuW9GbHjjO1l5YF02R?expand[]=payment_method
+====End Log====
+
+2024-02-27T15:23:32+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_3OoSTdAuW9GbHjjO1y0Sh1A8
+    [object] => charge
+    [amount] => 50
+    [amount_captured] => 50
+    [amount_refunded] => 0
+    [application] => ca_BC3QvYOCCxiOW3Klo6zL8KlBgSHzwTKn
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => txn_3OoSTdAuW9GbHjjO1M8LmfKX
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => Praha
+                    [country] => CZ
+                    [line1] => Hošťálkova 522/11
+                    [line2] => fdsff
+                    [postal_code] => 16900
+                    [state] => -
+                )
+
+            [email] => alesboem@icloud.com
+            [name] => Aleš Kachlík
+            [phone] => 608958858
+        )
+
+    [calculated_statement_descriptor] => BOEM.STORE
+    [captured] => 1
+    [created] => 1709047408
+    [currency] => eur
+    [customer] => cus_JEwETYGWDmS4HU
+    [description] => Boem - Order 7898
+    [destination] => 
+    [dispute] => 
+    [disputed] => 
+    [failure_balance_transaction] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 1
+    [metadata] => stdClass Object
+        (
+            [customer_email] => alesboem@icloud.com
+            [customer_name] => Aleš Kachlík
+            [order_id] => 7898
+            [order_key] => wc_order_xxft6FTJS7t3h
+            [payment_type] => single
+            [site_url] => https://www.boem.co/1709043782834
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => pi_3OoSTdAuW9GbHjjO1l5YF02R
+    [payment_method] => pm_1OoSUWAuW9GbHjjO24Bq7jCJ
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [amount_authorized] => 50
+                    [brand] => mastercard
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => unavailable
+                            [address_postal_code_check] => unavailable
+                            [cvc_check] => pass
+                        )
+
+                    [country] => CZ
+                    [exp_month] => 3
+                    [exp_year] => 2028
+                    [extended_authorization] => stdClass Object
+                        (
+                            [status] => disabled
+                        )
+
+                    [fingerprint] => 7DFAnDllSvMVgIjC
+                    [funding] => debit
+                    [incremental_authorization] => stdClass Object
+                        (
+                            [status] => unavailable
+                        )
+
+                    [installments] => 
+                    [last4] => 0688
+                    [mandate] => 
+                    [multicapture] => stdClass Object
+                        (
+                            [status] => unavailable
+                        )
+
+                    [network] => mastercard
+                    [network_token] => stdClass Object
+                        (
+                            [used] => 
+                        )
+
+                    [overcapture] => stdClass Object
+                        (
+                            [maximum_amount_capturable] => 50
+                            [status] => unavailable
+                        )
+
+                    [three_d_secure] => stdClass Object
+                        (
+                            [authenticated] => 1
+                            [authentication_flow] => challenge
+                            [electronic_commerce_indicator] => 02
+                            [exemption_indicator] => 
+                            [result] => authenticated
+                            [result_reason] => 
+                            [succeeded] => 1
+                            [transaction_id] => 3e7f50c2-1c9e-4c8e-9482-0162e01f6dbf
+                            [version] => 2.2.0
+                        )
+
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [radar_options] => stdClass Object
+        (
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/payment/CAcQARoXChVhY2N0XzFIYlhwSkF1VzlHYkhqak8o9Pz3rgYyBnjlUt7sXzosFsBwO2uMZuLcHVmEdvBqP09Oa8e2Biwct97oRhGW75ZF11CNuwikfAKxBQ8
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_3OoSTdAuW9GbHjjO1y0Sh1A8/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => 
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [statement_descriptor_suffix] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+2024-02-27T15:23:32+00:00 DEBUG 
+====Stripe Version: 7.9.3====
+====Start Log====
+balance/history/txn_3OoSTdAuW9GbHjjO1M8LmfKX
+====End Log====
+
